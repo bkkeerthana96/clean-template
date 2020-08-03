@@ -1,5 +1,8 @@
 #include "VehicleParams.h"
+#include <limits>
 
+std::numeric_limits<double>::quiet_NaN()
+ 
  inventory Translate_Veh_info(telematics Veh_received_param){
       inventory store_params = {231, 30, NaN, NaN};
       store_params.vehicle_id = Veh_received_param.vehicle_id;
