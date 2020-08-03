@@ -20,4 +20,4 @@ typedef struct inventory
   float battery_temp;
  };
  
- inventory Translate_Veh_info(telematics Veh_received_param);
+ inventory Translate_Veh_info(telematics* Veh_received_param);
