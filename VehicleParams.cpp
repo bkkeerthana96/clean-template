@@ -12,10 +12,10 @@
           store_params.motor_temp = Veh_received_param->measurement;
           break;
         case battery_pc:
-          store_params.motor_temp = Veh_received_param->measurement;
+          store_params.battery_pc = Veh_received_param->measurement;
           break;
         case battery_temp:
-          store_params.motor_temp = Veh_received_param->measurement;
+          store_params.battery_temp = Veh_received_param->measurement;
           break;
        default:
           break;
